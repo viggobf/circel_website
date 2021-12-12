@@ -1,54 +1,24 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import * as uniUX from 'uniux'
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
 
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-
-// markup
-const NotFoundPage = () => {
+const Page = () => {
   return (
-    <main style={pageStyles}>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
+    <body>
+    <main className={uniUX.styles.page}>
+      <uniUX.TopBar pageName={'Home'}/>
+      <title>Error 404</title>
+      <br></br>
+        <h1 className={uniUX.styles.bigPageHeader} style={{textAlign: 'left'}}><span style={{color: 'rgb(233, 233, 233)'}}>Error 404</span><br/>Sorry, that page doesn't exist.</h1>
+
+        <p className={uniUX.styles.minorText}>Let's get you back on track. How about these?</p><br/><br/>
+        <uniUX.PrimaryButton text='Return to the Circel homepage' onClick={function(){window.open('/', '_self')}}/>
+
+        <uniUX.SecondaryButton text='Visit Circel Support' onClick={function(){window.open('/help', '_self')}}/>
     </main>
+    </body>
   )
 }
 
-export default NotFoundPage
+export default Page
