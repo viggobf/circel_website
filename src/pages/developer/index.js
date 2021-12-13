@@ -6,7 +6,7 @@ import * as firebaseSetup from '../../components/firebasesetup.js'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import * as icons from '@fortawesome/free-solid-svg-icons'
 import * as brandIcons from '@fortawesome/free-brands-svg-icons'
-import {appConfig} from './config.js'
+import {appConfig} from '../../components/appConfigs/settings.js'
 
 class Page extends React.Component{
   render(){
@@ -15,9 +15,9 @@ class Page extends React.Component{
       <uniUX.ColumnedApp appConfig={appConfig} page={appConfig.pageConfigs.home}
       pageOptionButtons={[]} pageContent={
         <span>
-        <h4>
+        <h3>
           Welcome to UniUX
-        </h4>
+        </h3>
         <p>
           UniUX is more than just a user interface library. While conventional UI libraries provide all the components and styles you may need,
           the UniUX library gives you the ability to build apps easily and always synchronise configurations across pages.
@@ -25,9 +25,9 @@ class Page extends React.Component{
 
         <br/>
 
-        <h4>
+        <h3>
           How does it work?
-        </h4>
+        </h3>
 
         <p>
           UniUX only requires three things to work at its most basic level.
@@ -54,9 +54,9 @@ class Page extends React.Component{
 
         <br/>
 
-        <h4>
+        <h3>
           Developer Documentation
-        </h4>
+        </h3>
 
         <p>
           This developer documentation is not complete (yet) and is currently only available in English. It covers how to make a UniUX
@@ -66,9 +66,9 @@ class Page extends React.Component{
 
         <br/>
 
-        <h4>
+        <h3>
           The Node module
-        </h4>
+        </h3>
 
         <p>
           The Node module, easily installable, gives you access to all UniUX offers, through of course a means we anticipate you'll know quite well.

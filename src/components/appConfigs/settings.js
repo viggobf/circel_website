@@ -3,7 +3,7 @@ import { colourPacks } from 'uniux'
 
 var appConfig = {
     name: 'Developer Docs',
-    appRootURL: 'developer',
+    rootURL: 'developer',
     shortenedName: 'Dev Docs',
     pageConfigs: {
         home: {
