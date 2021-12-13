@@ -16,10 +16,10 @@ class Page extends React.Component{
       pageOptionButtons={[]} pageContent={
         <span>
         <h3>
-          Install UniUX
+          Install UniUX (unfinished).
         </h3>
         <p>
-          UniUX is be installed and updated just like any other Node module.
+          UniUX is be installed and updated just like any other Node module. Simply run <strong>npm install uniux</strong> to add it to your project.
         </p>
         
         </span>
