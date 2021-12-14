@@ -9,7 +9,7 @@ const Page = () => {
             <uniUX.Main pageType={'website'} pageName={'Design'} content={
                 <div>
                     <br/><br/><br/><br/><br/><br/><br/>
-                    <h1 style={uniUX.welcomeHeadingStyles}><span style={{color: 'rgb(109, 109, 109)'}}>Introducing UniUX 3</span><br/><span style={{fontSize: '9vw', color: 'var(--red)'}}>Beauty meets Power</span></h1>
+                    <h1 style={uniUX.welcomeHeadingStyles}><span style={{color: 'rgb(109, 109, 109)'}}></span><br/><span style={{fontSize: '9vw', color: 'var(--red)'}}>Beauty meets Power</span></h1>
                     <p className={uniUX.styles.minorText}>Meet UniUX 3, a powerful, beautiful and unified user experience.</p><br/><br/>
 
                     <br/><br/><br/><br/>

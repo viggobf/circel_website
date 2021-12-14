@@ -17,7 +17,7 @@ var appConfig = {
         url: '/start'
         }
     },
-    themeColour: colourPacks.green,
+    themeColour: colourPacks.red,
 }
 
 export {appConfig}
