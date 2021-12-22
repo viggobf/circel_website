@@ -17,14 +17,13 @@ const Page = () => {
                         <span style={{ fontSize: '6vw' }}>Powerful. Beautiful. Unified.</span>
                     </h1>
                     <p className={uniUX.styles.minorText}>
-                        We build our apps on UniUX, not the other way round. It's not an afterthought: our user experience means a lot
-                        to us, so we want to make it shine and be easy to learn and remember.
+                       Our team is devoted to your experience whilst using UniUX, and put security first. Your safety whilst using it is in the best hands.
                     </p><br/><br/>
 
                     <span className={uniUX.styles.pageTileRow}>
                         <uniUX.SmallCard name='Powerful' styles={{background: 'linear-gradient(5deg, rgba(250,250,250,1) 0%, rgba(255,255,255,1) 70%)'}} content={<span>
                         <p className={uniUX.styles.minorText}>
-                        (Viggo add some stuff about u here please).<br/><br/>
+                        Viggo B-F is our CEO, and the primary developer of UniUX. He has expreence in javascript, css and HTML.<br/><br/>
                         Viggo is CEO.<br/><br/>
                         Placeholder text
                         </p>
