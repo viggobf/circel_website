@@ -1,17 +1,17 @@
 import * as React from 'react'
 import ReactDom from 'react-dom'
-import * as ReactSpring from 'react-spring'
 import * as uniUX from 'uniux'
 import { Link } from 'gatsby'
 import * as firebaseSetup from '../components/firebasesetup.js'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import * as icons from '@fortawesome/free-solid-svg-icons'
 import * as brandIcons from '@fortawesome/free-brands-svg-icons'
+import { appConfig } from '../components/appConfigs/uniux/auth-pages.js'
 
 const Page = () => {
   return (
     <body>
-      <uniUX.Main pageType={'custom'} pageName={'Log in'} content={
+      <uniUX.Main appConfig={appConfig} pageType={'custom'} pageName={'Log in'} content={
         <div className={uniUX.styles.halvedPageGrid}>
           <div className={uniUX.styles.halvedPageHalf}>
             <br /><br />
