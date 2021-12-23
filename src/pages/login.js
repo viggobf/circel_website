@@ -6,7 +6,7 @@ import * as firebaseSetup from '../components/firebasesetup.js'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import * as icons from '@fortawesome/free-solid-svg-icons'
 import * as brandIcons from '@fortawesome/free-brands-svg-icons'
-import { appConfig } from '../components/appConfigs/uniux/auth-pages.js'
+import { appConfig } from '../components/appConfigs/uniux/website-pages.js'
 
 const Page = () => {
   return (
